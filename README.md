@@ -12,19 +12,19 @@ NextEvents is a modern, full-featured event management platform built with Next.
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/1.png" alt="Home Page - NextNews Landing" width="400" /><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/1.png" alt="Home Page - NextNews Landing" width="300" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/2.png" alt="News Listing - Article Grid View" width="400" /><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/2.png" alt="News Listing - Article Grid View" width="300" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/3.png" alt="Article Detail - Full Content View" width="400" /><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/3.png" alt="Article Detail - Full Content View" width="300" /><br/>
 </p>
 
 ---
