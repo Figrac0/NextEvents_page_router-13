@@ -1,0 +1,226 @@
+/* components/ui/button.module.css */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+/* Primary Variant */
+.primary {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.25);
+}
+
+.primary:hover:not(.disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(99, 102, 241, 0.35);
+}
+
+.primary:active:not(.disabled) {
+    transform: translateY(0);
+}
+
+/* Secondary Variant */
+.secondary {
+    background: white;
+    color: #374151;
+    border: 2px solid #e5e7eb;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.secondary:hover:not(.disabled) {
+    border-color: #6366f1;
+    color: #6366f1;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Outline Variant */
+.outline {
+    background: transparent;
+    color: #6366f1;
+    border: 2px solid #6366f1;
+}
+
+.outline:hover:not(.disabled) {
+    background: rgba(99, 102, 241, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Ghost Variant */
+.ghost {
+    background: transparent;
+    color: #6b7280;
+    border: 2px solid transparent;
+}
+
+.ghost:hover:not(.disabled) {
+    background: #f9fafb;
+    color: #374151;
+}
+
+/* Danger Variant */
+.danger {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    color: white;
+    box-shadow: 0 4px 20px rgba(239, 68, 68, 0.25);
+}
+
+.danger:hover:not(.disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(239, 68, 68, 0.35);
+}
+
+/* Success Variant */
+.success {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.25);
+}
+
+.success:hover:not(.disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(16, 185, 129, 0.35);
+}
+
+/* Size Variants */
+.small {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.875rem;
+    border-radius: 12px;
+}
+
+.medium {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+}
+
+.large {
+    padding: 1.125rem 2.5rem;
+    font-size: 1.125rem;
+    border-radius: 20px;
+}
+
+/* Full Width */
+.fullWidth {
+    width: 100%;
+}
+
+/* Disabled State */
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Content wrapper */
+.content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+/* Ripple effect */
+.btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition:
+        width 0.6s,
+        height 0.6s;
+}
+
+.btn:active:not(.disabled)::after {
+    width: 300px;
+    height: 300px;
+}
+
+/* Loading state */
+.loading {
+    position: relative;
+    color: transparent !important;
+}
+
+.loading::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 0.8s linear infinite;
+    z-index: 3;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Icon styles */
+.btn svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .large {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .medium {
+        padding: 0.75rem 1.5rem;
+    }
+}
+
+/* Dark mode support (optional) */
+@media (prefers-color-scheme: dark) {
+    .secondary {
+        background: #1f2937;
+        color: #e5e7eb;
+        border-color: #374151;
+    }
+
+    .secondary:hover:not(.disabled) {
+        border-color: #6366f1;
+        color: #6366f1;
+    }
+
+    .ghost:hover:not(.disabled) {
+        background: #374151;
+        color: #e5e7eb;
+    }
+}

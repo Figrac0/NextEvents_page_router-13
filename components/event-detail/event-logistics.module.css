@@ -1,0 +1,359 @@
+/* components/event-detail/event-logistics.module.css */
+.logistics {
+    margin-top: -4rem;
+    position: relative;
+    z-index: 10;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 280px 1fr 380px;
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Date Card */
+.dateCard {
+    background: white;
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(229, 231, 235, 0.8);
+    text-align: center;
+}
+
+.dateHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    color: #6b7280;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.dateHeader svg {
+    width: 20px;
+    height: 20px;
+    color: #6366f1;
+}
+
+.dateDisplay {
+    margin-bottom: 1.5rem;
+}
+
+.month {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #6366f1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.day {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #111827;
+    margin-bottom: 0.25rem;
+}
+
+.dayOfWeek {
+    font-size: 1.125rem;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.timeInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: #f3f4f6;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    font-weight: 500;
+    color: #374151;
+}
+
+.timeInfo svg {
+    width: 18px;
+    height: 18px;
+    color: #10b981;
+}
+
+/* Image Container */
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.imageWrapper {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+    opacity: 0;
+}
+
+.image.loaded {
+    opacity: 1;
+}
+
+.image:hover {
+    transform: scale(1.02);
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.5));
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5rem;
+}
+
+.overlayContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageBadge {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: #1f2937;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.quickStats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1.25rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(229, 231, 235, 0.8);
+}
+
+.stat svg {
+    width: 24px;
+    height: 24px;
+    color: #6366f1;
+}
+
+.statContent {
+    flex: 1;
+}
+
+.statValue {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1;
+}
+
+.statLabel {
+    display: block;
+    font-size: 0.75rem;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0.25rem;
+}
+
+.seatMeter {
+    width: 60px;
+    height: 6px;
+    background: #e5e7eb;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.seatFill {
+    height: 100%;
+    background: linear-gradient(90deg, #10b981 0%, #059669 100%);
+    border-radius: 3px;
+    transition: width 1s ease;
+}
+
+/* Details Card */
+.detailsCard {
+    background: white;
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(229, 231, 235, 0.8);
+}
+
+.detailsHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.detailsHeader h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #111827;
+}
+
+.detailsHeader svg {
+    width: 24px;
+    height: 24px;
+    color: #ef4444;
+}
+
+.addressCard {
+    background: #f9fafb;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid #e5e7eb;
+}
+
+.addressIcon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.addressIcon svg {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.addressDetails {
+    margin-bottom: 1.5rem;
+}
+
+.addressPrimary {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 0.25rem;
+}
+
+.addressSecondary {
+    font-size: 0.875rem;
+    color: #6b7280;
+    line-height: 1.4;
+}
+
+.mapButton {
+    width: 100%;
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mapButton:hover {
+    border-color: #6366f1;
+    color: #6366f1;
+}
+
+.detailsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.detailItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.detailLabel {
+    font-size: 0.875rem;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.detailValue {
+    font-size: 0.875rem;
+    color: #111827;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .dateCard {
+        order: 2;
+    }
+
+    .imageContainer {
+        order: 1;
+    }
+
+    .detailsCard {
+        order: 3;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .quickStats {
+        grid-template-columns: 1fr;
+    }
+
+    .dateCard,
+    .detailsCard {
+        padding: 1.5rem;
+    }
+}
