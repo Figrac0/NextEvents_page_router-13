@@ -12,31 +12,31 @@ NextEvents is a modern, full-featured event management platform built with Next.
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/1.png" alt="Home Page - NextNews Landing" width="550" height ="800" /><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/1.png" alt="Home Page - NextNews Landing" width="500" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/2.png" alt="News Listing - Article Grid View" width="530" height ="730"/><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/2.png" alt="News Listing - Article Grid View" width="500" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/3.png" alt="Article Detail - Full Content View" width="530" height ="820"/><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/3.png" alt="Article Detail - Full Content View" width="500" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/4.png" alt="Archive Filtering - Year/Month Navigation" width="800" height ="730"/><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/4.png" alt="Archive Filtering - Year/Month Navigation" width="600" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/5.png" alt="Modal Image View - Intercepted Route" width="830" height ="710"/><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/5.png" alt="Modal Image View - Intercepted Route" width="600" /><br/>
 </p>
 
 ---
