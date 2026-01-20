@@ -6,37 +6,37 @@ NextEvents is a modern, full-featured event management platform built with Next.
 
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/main.gif" alt="Project Demo GIF - Full Application Walkthrough" width="800"/><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router_and_Pre-Rendering-Data-Fetching-N13/blob/next-PageRouter/public/main.gif" alt="Project Demo GIF - Full Application Walkthrough" width="800"/><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/1.png" alt="Home Page - NextNews Landing" width="300" /><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router_and_Pre-Rendering-Data-Fetching-N13/blob/next-PageRouter/public/1.png" alt="Home Page - NextNews Landing" width="300" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/2.png" alt="News Listing - Article Grid View" width="300" /><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router_and_Pre-Rendering-Data-Fetching-N13/blob/next-PageRouter/public/2.png" alt="News Listing - Article Grid View" width="300" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/3.png" alt="Article Detail - Full Content View" width="300" /><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router_and_Pre-Rendering-Data-Fetching-N13/blob/next-PageRouter/public/3.png" alt="Article Detail - Full Content View" width="300" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/4.png" alt="Archive Filtering - Year/Month Navigation" width="400" /><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router_and_Pre-Rendering-Data-Fetching-N13/blob/next-PageRouter/public/4.png" alt="Archive Filtering - Year/Month Navigation" width="400" /><br/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://github.com/Figrac0/NextEvents_page_router-13/blob/main/public/5.png" alt="Modal Image View - Intercepted Route" width="400" /><br/>
+  <img src="https://github.com/Figrac0/NextEvents_page_router_and_Pre-Rendering-Data-Fetching-N13/blob/next-PageRouter/public/5.png" alt="Modal Image View - Intercepted Route" width="400" /><br/>
 </p>
 
 ---
