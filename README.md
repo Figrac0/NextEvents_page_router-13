@@ -153,7 +153,7 @@ Real-time updates: Client-side fetching with SWR for fresh data
 
 Smooth UX: Shows pre-rendered content immediately, updates when new data arrives
 
-Key Concepts Demonstrated
+## Key Concepts Demonstrated
 Static Site Generation (SSG): Pages are pre-rendered at build time
 
 Server-Side Rendering (SSR): Pages are rendered on each request
@@ -168,14 +168,14 @@ Fallback Pages: Handling non-pre-rendered paths gracefully
 
 Redirects & 404: Programmatic navigation and error states
 
-Dependencies
+## Dependencies
 Next.js 13.0.7+
 
 React 18.2.0+
 
 SWR (not in package.json but used in code - would need installation)
 
-Data Flow
+## Data Flow
 Build Time:
 
 getStaticPaths defines which product pages to generate
