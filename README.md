@@ -3,7 +3,7 @@
 This project demonstrates various data fetching methods and pre-rendering strategies in Next.js 13 using the Pages Router (not App Router). It showcases Static Generation (SSG), Server-Side Rendering (SSR), and client-side data fetching.
 
 ## Project Structure
-
+ 
 ```text
 /pages
 ├── index.js # Home page with SSG
